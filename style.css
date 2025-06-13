@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+
+}
+
+.header{
+    border: 3px solid  rgb(159,182,195) ;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px gray;
+}
+   
+
+
+.navbar{
+display: flex;
+
+
+}
+
+.logo{
+     width:30% ;
+}
+
+.logo img{
+width: 250px;
+
+}
+.navItems{
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+
+.navItems ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+   
+    
+}
+
+.navItems ul li a{
+text-decoration: none;
+
+}
+
+
+.header:hover{
+    background-color: rgb(246, 156, 0);
+    transition: 0.8s ease-in;
+    
+}
+
+
+
+
+.navItems ul li :hover{
+    
+     transition: 0.7s ease;
+     background-color: rgb(204,108,92);
+     border-radius: 30px;
+     padding: 10px 20px; 
+     color: black;
+     
+}
+
+
+
+
+
+
